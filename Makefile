@@ -14,7 +14,7 @@ autoloads:
 	$(EASK) generate autoloads
 
 clean:
-	$(EASK) clean all
+	$(EASK) clean
 
 test: clean all install
 	$(EASK) test ert ./tests/php-ts-mode-tests.el
